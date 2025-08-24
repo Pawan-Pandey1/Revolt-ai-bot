@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  background: #222; /* forces overall dark background */
+  min-height: 100vh;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+.bot-ui {
+  min-height: 100vh;
+  background: #222; /* ensures app background stays dark */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 48px;
+}
+
+.bot-avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: #444;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.30);
+  margin-top: 0;
+  margin-bottom: 24px;
+  display: block;
+}
+
+.bot-title {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #f7f7f7;
+  letter-spacing: 1.5px;
+}
+
+.bot-intro {
+  text-align: center;
+  font-size: 1rem;
+  color: #d0d8dc;
+  margin-bottom: 0;   
+  max-width: 600px;
+  font-style: italic;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+
+.button-group {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 14px;
+}
+
+.start-btn, .stop-btn, .reset-btn {
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.25s ease, color 0.25s ease, box-shadow 0.25s ease;
+  box-shadow: 0 2px 8px rgba(36,36,54,0.13);
+}
+
+.start-btn {
+  background: linear-gradient(90deg, #2ee59d 0%, #08c7e1 100%);
+  color: #fff;
+}
+
+.start-btn:hover:enabled {
+  background: linear-gradient(90deg, #08c7e1 0%, #2ee59d 100%);
+  color: #222;
+  box-shadow: 0 4px 12px #2ee59daa;
+}
+
+.stop-btn {
+  background: linear-gradient(90deg, #ff3c5b 0%, #fca762 100%);
+  color: #fff;
+}
+
+.stop-btn:hover:enabled {
+  background: linear-gradient(90deg, #fca762 0%, #ff3c5b 100%);
+  color: #f0eaea;
+  box-shadow: 0 4px 12px #ff3c5bbb;
+}
+
+.reset-btn {
+  background: linear-gradient(90deg, #343652 0%, #787b99 100%);
+  color: #fff;
+}
+
+.reset-btn:hover:enabled {
+  background: linear-gradient(90deg, #787b99 0%, #343652 100%);
+  color: #ffdb89;
+  box-shadow: 0 4px 12px #343652cc;
+}
+
+.start-btn:disabled, .stop-btn:disabled, .reset-btn:disabled {
+  background: #ddd;
+  color: #aaa;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.bike-img {
+  width: 210px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 14px #0008;
+  display: block;
+  margin: 0 auto 14px auto;
+}
+
+
+.live-transcript {
+  font-style: italic;
+  text-align: center;
+  color: #a3aebd;
+  margin: 8px 0 10px 0;
+  min-height: 24px;
+}
+
+.status-text {
+  font-size: 1rem;
+  padding: 7px 0;
+  margin-bottom: 8px;
+  border-radius: 7px;
+  background: #222;
+  color: #ccc;
+  min-width: 180px;
+  text-align: center;
+}
+
+.status-text.error {
+  background: #dc143c;
+  color: #fff;
+}
