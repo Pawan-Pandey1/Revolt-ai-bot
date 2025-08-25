@@ -1,13 +1,23 @@
+/* Reset margin and set a clean base font */
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f9f9f9;   /* Subtle background */
+  color: #333;                 /* Softer text color for readability */
+  line-height: 1.6;            /* Better text spacing */
 }
 
+/* Improve default code styling */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  background: #f4f4f4;         /* Light gray background */
+  padding: 2px 6px;            /* Small padding around code */
+  border-radius: 4px;          /* Rounded edges */
+  color: #d6336c;              /* Slightly vibrant code color */
 }
