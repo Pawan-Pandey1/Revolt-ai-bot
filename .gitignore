@@ -5,6 +5,10 @@ node_modules/
 build/
 dist/
 
+# Ignore environment variables (root and any subfolders)
+.env
+**/.env
+
 # Ignore system files
 .DS_Store
 Thumbs.db
