@@ -1,4 +1,9 @@
-# Revolt Motors AI Voice Assistant
+<h1 align="center">Revolt Motors AI Voice Assistant</h1>
+
+<p align="center">
+  <img src="frontend/src/bot1.jpg" alt="Revolt Motors Bot" width="440"/>
+</p>
+
 
 A **real-time conversational voice interface** using the **Google Gemini Live API**, specifically designed for **Revolt Motors** – India's leading electric motorcycle company.  
 This application replicates the functionality of the Revolt Motors chatbot with **advanced voice interaction capabilities**, **interruption support**, and **low-latency responses**.
@@ -71,7 +76,7 @@ revolt-motors-voice-chat/
 git clone <repository-url>
 cd revolt-motors-voice-chat
 
-
+```
 ### 2. Backend Setup
 
 ```bash
@@ -207,3 +212,19 @@ If you need help:
 ---
 
 **Note**: This AI assistant is specialized for Revolt Motors products and information. It gracefully handles unrelated queries by guiding users back to relevant topics.
+
+---
+
+## 📝 Assignment & Credits
+
+**Created by:** Pawan Pandey  
+**Context:** This project was developed as part of the **RattanIndia – Technical Assessment** for the role of **Software Engineer**.
+
+**Assignment Details (from HR):**
+- **Objective:** Develop a real-time, conversational voice interface using the **Gemini Live API**, replicating the functionality of the existing **Revolt Motors** chatbot.
+- **Assessment Link:** *RattanIndia – Technical Assessment* (as provided by HR)
+
+> Thank you for shortlisting me for the next stage. This repository contains the implementation aligned with the stated objective, including real-time voice interaction, interruption support, and low-latency streaming over WebSockets.
+
+
+
